@@ -1,0 +1,74 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:orange;
+}
+.date {
+    text-align: right;
+}
+.box {
+    border: 5px solid white;
+    padding: 2em; 
+    margin-left: 0;
+}
+h1 {
+    font-size: large;
+    font-style: italic;
+    padding-bottom: em;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+h2 {
+    font-size: larger;
+    text-align: center;
+}
+blockquote {
+    font-size: 1.4em;
+    color: darkslategray;
+}
+div#main {
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 2em 2em 2em 2em;
+}
+.more-readable {
+    line-height: em;
+    text-align: left;
+    }
+.day {
+    font-style: italic;
+}
+.promise {
+    font-style: italic;
+    margin-left: 2px;
+}
+.standout {
+    color: red;
+    margin-top: 1em;
+}
+.img-design > img{
+    width: 200px;
+    display: block;
+    margin: left;
+    
+}
+.unique {
+    color: purple;
+}
+
+.img-block-inline > img, .img-block-inline > span>img {
+    width: 150px;
+}
+
+.img-inline > img {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+.no-float {
+    display: inline;
+    float: none;
+}

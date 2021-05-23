@@ -1,12 +1,24 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:orange;
+    
+    margin: auto;
+    background-color:lightgoldenrodyellow;
+    width: 70%;
+    /* background-color: orange; */
+}
+
+
+.body-content, .box {
+    background-color: orange;
+    padding: 20px;
+    border: 1px solid #b78b66;
+    border-radius: 3px;
+    margin-top: 5px;
 }
 .date {
     text-align: right;
 }
 .box {
-    border: 5px solid white;
     padding: 2em; 
     margin-left: 0;
 }

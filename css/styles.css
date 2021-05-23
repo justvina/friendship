@@ -57,18 +57,3 @@ div#main {
 .unique {
     color: purple;
 }
-
-.img-block-inline > img, .img-block-inline > span>img {
-    width: 150px;
-}
-
-.img-inline > img {
-    display: block;
-    width: 150px;
-    float: left;
-}
-
-.no-float {
-    display: inline;
-    float: none;
-}
